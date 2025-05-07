@@ -2,14 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 :root {
-    --background-color-heder: #B3891F;
+    --background-color-heder: #3161E0;
+    --text-color: white;
+    --text-color-normal: black;
 }
 
 header {
-    background-color: #9FC6D2;
+    background-color: var(--background-color-heder);
     height: 50px;
     display: flex;
     align-items: center;
@@ -18,29 +21,52 @@ header {
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 60rem;
 }
 
 .logo {
+    color: var(--text-color);
     width: 25%;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     background-color: var(--background-color-heder);
+    display: flex;
+    align-items: center;
+}
+
+li {
+    padding: 10px;
 }
 
 .link {
+    color: var(--text-color);
     width: 50%;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     background-color: var(--background-color-heder);
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
 }
 
 .login {
+    color: var(--text-color-normal);
     width: 25%;
-    border: 1px dashed black;
+   /*  border: 1px dashed black; */
     background-color: var(--background-color-heder);
     text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    span {
+        background-color: var(--text-color);
+        border-radius: 20px;
+        align-items: center;
+        padding: 5px;
+        font-size: 12px;
+    }
 }
 
 .uno {

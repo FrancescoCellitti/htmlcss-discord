@@ -53,7 +53,7 @@ li {
 .login {
     color: var(--text-color-normal);
     width: 25%;
-   /*  border: 1px dashed black; */
+    /*  border: 1px dashed black; */
     background-color: var(--background-color-heder);
     text-align: end;
     display: flex;
@@ -68,21 +68,69 @@ li {
         font-size: 12px;
     }
 }
+img{
+ max-width: 100%;
+    
+}
 
 .uno {
     height: 20rem;
     background-color: #00008B;
     padding: 20px;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
 }
+    
 
 .rosa {
     width: 45rem;
     padding: 20px;
-    background-color: #EE82EE;
+    /* background-color: #EE82EE; */
     margin: 0 auto;
     height: 100%;
     align-self: center;
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
+    text-align: center;
+    color: var(--text-color);
+    text-align: center;
+
+    h1 {
+        margin: 40px 0 20px;
+        align-items: cneter;
+    }
+
+    p {
+        margin: 0 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .utili {
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+
+        .scarica {
+            background-color: var(--text-color);
+            color: var(--text-color-normal);
+            border-radius: 20px;
+            padding: 5px 20px;
+            margin:10px 20px;
+        }
+
+        .aprimi{
+            background-color: var(--text-color-normal);
+            color: var(--text-colorl);
+            border-radius: 20px;
+            padding: 8px 20px;
+        }
+
+        i {
+            padding: 5px;
+
+        }
+    }
+
 }
 
 .due {

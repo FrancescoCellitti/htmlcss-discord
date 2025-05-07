@@ -231,31 +231,60 @@ img {
 
 
 .footer-1 {
-    height: 40rem;
+    height: 25rem;
     background-color: #23272A;
     padding: 20px;
     display: flex;
     justify-content: center;
+}
+h3{
+    color:#7188D8;
+    margin: 10px;
 }
 
 .rosa-scuro {
     width: 16rem;
     height: 100%;
     padding: 20px;
-    background-color: #F08080;
+    /* background-color: #F08080; */
     margin: 0;
     align-self: center;
-    border: 2px dashed white;
+    /* border: 2px dashed white; */
+    p{
+        margin: 10px;
+        font-size: 12px;
+
+        img{
+            height: 10px;
+            margin-right: 2px;
+        } 
+    }
+        ul{
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+            color: var(--text-color);
+        }
+   
 }
 
 .celeste {
     width: 136px;
     height: 100%;
     padding: 20px;
-    background-color: #20B2AA;
+    /* background-color: #20B2AA; */
     margin: 0;
     align-self: center;
-    border: 2px dashed white;
+    /* border: 2px dashed white; */
+    h6{
+        color:#7188D8 ;
+        margin-right: 10px;
+    }
+    ul{
+        list-style:none;
+        font-size: 8px;
+        color: var(--text-color);
+    }
 }
 
 .last {
@@ -268,7 +297,7 @@ img {
 .last-uno {
     width: 50rem;
     height: 4rem;
-    background-color: #7FFFD4;
+    /* background-color: #7FFFD4; */
     margin: 0 auto;
     text-align: center;
     display: inline-flex;
@@ -278,12 +307,35 @@ img {
 
 .last-due {
     width: 10%;
-    border: 1px dashed black;
-    background-color: #C9919A;
+   /*  border: 1px dashed black; */
+    /* background-color: #C9919A; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .last-tre {
     width: 10%;
-    border: 1px dashed black;
-    background-color: #C9919A;
+    /* border: 1px dashed black; */
+    background-color: #8EA1E1;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:12px;
+    color: var(--text-color);
+    padding: 10px;
+}
+.wave{
+    height:100px ;
+    /* background-color: red; */
+    background-image: url(img/wave.svg);
+    opacity: 17%;
+}
+.wave-rotate{
+    height:100px ; 
+    background-image: url(img/wave.svg);
+    opacity: 17%;
+    rotate:180deg;
+    border-color: white;
 }

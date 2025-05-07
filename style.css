@@ -64,13 +64,14 @@ li {
         background-color: var(--text-color);
         border-radius: 20px;
         align-items: center;
-        padding: 5px;
+        padding: 5px 12px;
         font-size: 12px;
     }
 }
-img{
- max-width: 100%;
-    
+
+img {
+    max-width: 100%;
+
 }
 
 .uno {
@@ -80,7 +81,7 @@ img{
     background-image: url(img/jumbo.png);
     background-size: cover;
 }
-    
+
 
 .rosa {
     width: 45rem;
@@ -115,10 +116,10 @@ img{
             color: var(--text-color-normal);
             border-radius: 20px;
             padding: 5px 20px;
-            margin:10px 20px;
+            margin: 10px 20px;
         }
 
-        .aprimi{
+        .aprimi {
             background-color: var(--text-color-normal);
             color: var(--text-colorl);
             border-radius: 20px;
@@ -148,21 +149,32 @@ img{
 .blue {
     width: 30rem;
     padding: 20px;
-    background-color: #1E90FF;
+   /*  background-color: #1E90FF */;
     margin: 0;
     height: 100%;
     align-self: center;
-    border: 2px dashed black;
+   /*  border: 2px dashed black ;*/
 }
 
 .rosa1 {
     width: 20rem;
     padding: 20px;
-    background-color: #FFC0CB;
+    /* background-color: #FFC0CB; */
     margin: 0;
     height: 100%;
     align-self: center;
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
+    text-align: left;
+
+    h1 {
+        padding:0 35px 10px;
+        font-size: 1.6rem;
+    }
+
+    p {
+        padding:10px 35px 10px;
+        font-size: 0.9rem;
+    }
 }
 
 .tre {

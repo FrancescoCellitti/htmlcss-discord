@@ -183,6 +183,12 @@ img {
     padding: 20px;
     display: flex;
     justify-content: center;
+   
+img{
+    width: 100%;
+    object-fit: cover;
+}
+    
 }
 
 .cinque {

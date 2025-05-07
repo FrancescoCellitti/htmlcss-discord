@@ -116,7 +116,7 @@ img {
             color: var(--text-color-normal);
             border-radius: 20px;
             padding: 5px 20px;
-            margin: 10px 20px;
+            margin: 20px 20px;
         }
 
         .aprimi {
@@ -149,17 +149,17 @@ img {
 .blue {
     width: 30rem;
     padding: 20px;
-   /*  background-color: #1E90FF; */
+    /*  background-color: #1E90FF; */
     margin: 0;
     height: 100%;
     align-self: center;
-   /*  border: 2px dashed black ;*/
+    /*  border: 2px dashed black ;*/
 }
 
 .rosa1 {
     width: 20rem;
     padding: 20px;
-   /*  background-color: #FFC0CB; */
+    /*  background-color: #FFC0CB; */
     margin: 0;
     height: 100%;
     align-self: center;
@@ -167,12 +167,12 @@ img {
     text-align: left;
 
     h1 {
-        padding:0 35px 10px;
+        padding: 0 35px 10px;
         font-size: 1.6rem;
     }
 
     p {
-        padding:10px 35px 10px;
+        padding: 10px 35px 10px;
         font-size: 0.9rem;
     }
 }
@@ -188,7 +188,7 @@ img {
 
 
 .cinque {
-    height: 40rem;
+    height: 45rem;
     background-color: #D3D3D3;
     padding: 20px;
 }
@@ -196,12 +196,39 @@ img {
 .verde {
     width: 50rem;
     padding: 20px;
-    background-color: #228B22;
+    /* background-color: #228B22; */
     margin: 0 auto;
     height: 100%;
     align-self: center;
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
+    text-align: center;
+
+    p {
+        padding: 10px 60px 0;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    h2 {
+        /*  margin:30px ; */
+        line-height:100px;
+        background-image: url(img/stars.svg);
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+        width:70%;
+        margin: 0  auto;
+    }
+
+    span{
+        background-color: var(--text-color);
+        color: var(--text-color-normal);
+        border-radius: 20px;
+        padding: 10px 20px;
+        margin: 30px;
+    }
 }
+
 
 .footer-1 {
     height: 40rem;
